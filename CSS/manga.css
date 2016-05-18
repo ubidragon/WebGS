@@ -4,7 +4,7 @@ body{
 	background-image:url("../ARCHIVOS/nube.jpg");
 	background-size:100% 100%;
 	background-attachment:fixed;
-
+overflow: hidden;
 	cursor: default;
 }
 
@@ -59,4 +59,24 @@ ul li a {
     transition-delay: 0.2s;
     margin:20px;
     cursor:pointer;
+}
+
+img{
+margin-top: 5px;
+margin-right: 30px;
+margin-left: 30px;
+margin-bottom:90px;
+    border: none;
+   width:160px;
+  height:150px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-grid;
+  
+    cursor: pointer;
+    float: left;
+}
+
 }
