@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body{
+    background-image:url("../ARCHIVOS/nube.jpg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+    cursor:copy;
+}
+
+#todo{
+    width:1500px;
+    height:1500px;
+    margin:0 auto;
+}
+
+header{
+    background-image: url("../ARCHIVOS/OP.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    border-radius:190%;
+    width:1500px;
+    height:200px;
+    float:top;
+}
+
+ul{
+    list-style-type: none;
+ 
+   overflow: hidden;
+}
+li{
+float: left;
+}
+ul li a { 
+     background-color: #34495e;
+    border: none;
+   width:166px;
+      height: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+  li a:hover { 
+    background-color: #2c3e50;
+
+    -moz-transform:rotate(-5deg); 
+    -moz-box-shadow:10px 10px 20px #000000;
+    -webkit-transform:rotate(-5deg); 
+    -webkit-box-shadow:10px 10px 20px #000000;
+    transform:rotate(4deg); box-shadow:10px 10px 20px #000000; 
+    transition-delay: 0.2s;
+    margin:20px;
+    cursor:pointer;
+}
+
+h2 {
+    margin: 40px;
+    width:1000px;
+    height:1300px;
+    
+}
+
+.videos {
+ margin: 20px;
+
+}

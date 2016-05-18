@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body{
+	background-image:url("../ARCHIVOS/nube.jpg");
+	background-size:100% 100%;
+	background-attachment:fixed;
+	cursor:copy;
+}
+
+#todo{
+	width:1500px;
+	height:1500px;
+	margin:0 auto;
+}
+
+header{
+	background-image: url("../ARCHIVOS/OP.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	border-radius:190%;
+	width:1500px;
+	height:200px;
+	float:top;
+}
+
+nav{
+	text-decoration: none;
+	width:400px;
+	height:100px;	
+	display:table;
+}
+
+ul{
+	list-style-type: none;
+ 
+   overflow: hidden;
+}
+li{
+float: left;
+}
+ul li a { 
+     background-color: #34495e;
+    border: none;
+   width:166px;
+      height: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+  li a:hover { 
+  	background-color: #2c3e50;
+
+    -moz-transform:rotate(-5deg); 
+    -moz-box-shadow:10px 10px 20px #000000;
+    -webkit-transform:rotate(-5deg); 
+    -webkit-box-shadow:10px 10px 20px #000000;
+    transform:rotate(4deg); box-shadow:10px 10px 20px #000000; 
+    transition-delay: 0.2s;
+    margin:20px;
+    cursor:pointer;
+}
+
+
+
+#lateral{
+	width:1500px;
+	height:400px;
+	
+	/*position:absolute;*/
+	
+}
+
+img{
+margin-top: 5px;
+margin-right: 30px;
+margin-left: 30px;
+margin-bottom:10px;
+    border: none;
+   width:160px;
+	height:150px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-grid;
+  
+    cursor: pointer;
+    float: left;
+}
+
+}
+
+
+
+#contenido{
+	width:700px;
+	height:700px;
+	float:right;
+	background-position:bottom;
+	background-size:cover;
+}
+
+.articulo{
+	color:black;
+	display:none;
+}
