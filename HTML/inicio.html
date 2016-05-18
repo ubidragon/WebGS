@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Inicio</title>
+	<bgsound src="URL de la musica" loop=INFINITE> 
+	<meta name="author" content="Ubidragon"/>
+	<link rel="stylesheet" type="text/css" href="../CSS/inicio.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="../ARCHIVOS/favicon1.png"/>
+	<script language="javascript" type="text/javascript">
+		function oculta(nombre1, nombre2, nombre3, nombre4, nombre5, nombre6, nombre7, nombre8, nombre9, nombre10, nombre11, nombre12) {
+			document.getElementById(nombre1).style.display = 'none';
+			document.getElementById(nombre2).style.display = 'none';
+			document.getElementById(nombre3).style.display = 'none';
+			document.getElementById(nombre4).style.display = 'none';
+			document.getElementById(nombre5).style.display = 'none';
+			document.getElementById(nombre6).style.display = 'none';
+			document.getElementById(nombre7).style.display = 'none';
+			document.getElementById(nombre8).style.display = 'none';
+			document.getElementById(nombre9).style.display = 'none';
+			document.getElementById(nombre10).style.display = 'none';
+			document.getElementById(nombre11).style.display = 'none';
+			document.getElementById(nombre12).style.display = 'none';
+		}
+		
+		function muestra(nombrediv) {
+			if(document.getElementById(nombrediv).style.display == 'block') {
+				document.getElementById(nombrediv).style.display = 'none';
+			} else {
+				document.getElementById(nombrediv).style.display = 'block';
+				switch(nombrediv) {
+					case 'articulo1':
+					oculta('articulo2', 'articulo3', 'articulo4', 'articulo5', 'articulo6', 'articulo7','articulo8','articulo9', 'articulo10', 'articulo11', 'articulo12');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/estopa.jpg')";
+					break;
+					case 'articulo2':
+					oculta('articulo1', 'articulo3', 'articulo4', 'articulo5', 'articulo6', 'articulo7','articulo8','articulo9', 'articulo10', 'articulo11', 'articulo12');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/estopa2.jpg')";
+					break;
+					case 'articulo3':
+					oculta('articulo1', 'articulo2', 'articulo4', 'articulo5', 'articulo6', 'articulo7','articulo8','articulo9', 'articulo10', 'articulo11', 'articulo12');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/estopa3.jpg')";
+					break;
+					case 'articulo4':
+					oculta('articulo1', 'articulo2', 'articulo3', 'articulo5', 'articulo6', 'articulo7','articulo8','articulo9', 'articulo10', 'articulo11', 'articulo12');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/estopa4.jpg')";
+					break;
+					case 'articulo5':
+					oculta('articulo1', 'articulo2', 'articulo3', 'articulo4', 'articulo6', 'articulo7','articulo8','articulo9', 'articulo10', 'articulo11', 'articulo12');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/estopa5.jpg')";
+					break;
+					case 'articulo6':
+					oculta('articulo1', 'articulo2', 'articulo3', 'articulo4', 'articulo5', 'articulo7','articulo8','articulo9', 'articulo10', 'articulo11', 'articulo12');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/estopa6.jpg')";
+					break;
+					case 'articulo7':
+					oculta('articulo1', 'articulo2', 'articulo3', 'articulo4', 'articulo5', 'articulo6','articulo8','articulo9', 'articulo10', 'articulo11', 'articulo12');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/andy1.jpg')";
+					break;
+					case 'articulo8':
+					oculta('articulo1', 'articulo2', 'articulo3', 'articulo4', 'articulo5', 'articulo6','articulo7','articulo9', 'articulo10', 'articulo11', 'articulo12');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/andy2.jpg')";
+					break;
+					case 'articulo9':
+					oculta('articulo1', 'articulo2', 'articulo3', 'articulo4', 'articulo5', 'articulo6','articulo7','articulo8', 'articulo10', 'articulo11', 'articulo12');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/andy3.jpg')";
+					break;
+					case 'articulo10':
+					oculta('articulo1', 'articulo2', 'articulo3', 'articulo4', 'articulo5', 'articulo6','articulo7','articulo8', 'articulo9', 'articulo11', 'articulo12');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/andy4.jpg')";
+					break;
+					case 'articulo11':
+					oculta('articulo1', 'articulo2', 'articulo3', 'articulo4', 'articulo5', 'articulo6','articulo7','articulo8', 'articulo9', 'articulo10', 'articulo12');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/andy5.jpg')";
+					break;
+					case 'articulo12':
+					oculta('articulo1', 'articulo2', 'articulo3', 'articulo4', 'articulo5', 'articulo6','articulo7','articulo8', 'articulo9', 'articulo10', 'articulo11');
+					document.getElementById('contenido').style.backgroundImage = "url('../ARCHIVOS/andy6.jpg')";
+					break;
+
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="todo">
+		<header>
+			
+		</header>
+
+		<div id="lista1">
+		<ul>
+				<li><a href="inicio.html">Inicio</a></li>
+				<li><a href="episodios.html">Episodios</a></li>
+				<li><a href="manga.html">Manga</a></li>
+				<li><a href="movie.html">Peliculas</a></li>
+				<li><a href="opening.html">Opening y Endings</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</div>
+
+		<h2 style="clear:both" id="personajes"	>
+			<div id="lateral">
+				<div id="cancion1" class="disco">
+					<a href="#" onclick="muestra('articulo1');"><img src="../ARCHIVOS/luffy.png"/></a>
+				</div>
+
+				<div id="cancion2" class="disco">
+					<a href="#" onclick="muestra('articulo2');"><img src="../ARCHIVOS/zoro.png"/></a>
+				</div>
+
+				<div id="cancion3" class="disco">
+					<a href="#" onclick="muestra('articulo3');"><img src="../ARCHIVOS/sanji.png"/></a>
+				</div>
+
+				<div id="cancion4" class="disco">
+					<a href="#" onclick="muestra('articulo4');"><img src="../ARCHIVOS/nami.png"/></a>
+				</div>
+
+				<div id="cancion5" class="disco">
+					<a href="#" onclick="muestra('articulo5');"><img src="../ARCHIVOS/usopp.png"/></a>
+				</div>
+
+				<div id="cancion6" class="disco">
+					<a href="#" onclick="muestra('articulo6');"><img src="../ARCHIVOS/choper.png"/></a>
+				</div>
+
+				<div id="cancion7" class="disco">
+					<a href="#" onclick="muestra('articulo7');"><img src="../ARCHIVOS/franky.png"/></a>
+				</div>
+
+				<div id="cancion8" class="disco">
+					<a href="#" onclick="muestra('articulo8');"><img src="../ARCHIVOS/brook.png"/></a>
+				</div>
+
+				<div id="cancion9" class="disco">
+					<a href="#" onclick="muestra('articulo9');"><img src="../ARCHIVOS/robin.png"/></a>
+				</div>
+
+				<div id="cancion10" class="disco">
+					<a href="#" onclick="muestra('articulo10');"><img src="../ARCHIVOS/ace.png"/></a>
+				</div>
+
+
+
+			</div>
+		</h2>
+		<h5 id="contenido">
+			<article id="articulo1" class="articulo">
+				Luffy nació en la Villa Foosha. Seis años después de su nacimiento, se encontró con una banda de piratas liderados por un capitán pirata llamado "Pelirrojo" Shanks. Luffy se hizo amigo de la banda de piratas y desde ese momento, quería convertirse en un pirata también. Luego de pasar un año con ellos, a los 7 años Luffy se apuñaló bajo en el ojo izquierdo sólo para mostrar que él era lo suficientemente fuerte como para unirse a la tripulación de Shanks, esa apuñalada le dejaría a Luffy su característica cicatriz bajo el ojo izquierdo.
+				Durante una escena con Shanks y Higuma, un bandido de la montaña, insulta a Shanks y su tripulación, después Luffy se enfurece con Shanks por no defenderse, pero este le explica que no importa ya que no es necesario tener peleas que no valen la pena, pero de repente Shanks estira el brazo de Luffy, y este revela que comió accidentalmente una Fruta del Diablo conocida como Gomu Gomu no Mi y sin darse cuenta se convirtió en un hombre de goma. Inicialmente, esta situación afectó gravemente a Luffy, ya que significaba que nunca podría ser capaz de nadar de nuevo, que era una gran debilidad a cualquiera que quisiera transitar los mares. Sin embargo, esto no impidió en el sueño de Luffy y Luffy fue una vez más estaba decidido a convertirse en un pirata.
+
+				Shanks salvando a Luffy.png
+				Shanks pierde su brazo izquierdo tras salvar a Luffy de un Rey Marino.
+				Más tarde, Luffy se encontraba solo en el bar de Makino, cuando de repente llegan de nuevo los bandidos exigiendo sake, y comienzan a habar de lo cobardes que eran los piratas. Luffy les grita y les exige que le pidan disculpas a Shanks. Él fue fácilmente derrotado, sin embargo,se convirtió en un rehén. Sus captores fueron derrotados por los Piratas del Pelirrojo, pero el jefe de los bandidos Higuma huye hacia el mar con Luffy.
+				Mientras tanto en el mar, Higuma lanzó a Luffy en el mar, sólo para ser atacado por un Rey Marino, el Señor de la Costa momentos después, mientras se estaba riendo de Luffy. Higuma es comido por el Señor de la Costa, y luego quería proceder a comerse a Luffy, pero Shanks logró salvar a Luffy, aunque le costo a Shanks su brazo izquierdo. Por lo cual Luffy lloraba desconsolado.
+				Poco después, la nave de los Piratas del Pelirrojo zarpa con Shanks, junto con su equipo, pero antes de salir, él y Luffy se prometen que un día Luffy superaría Shanks y se convertirá en el Rey de los Piratas. Shanks luego le da su Sombrero de Paja a Luffy, diciéndole que se lo devuelva una vez que le supere.
+
+				Leer mas
+
+			</article>
+
+			<article id="articulo2" class="articulo">
+				Cuando Zoro era un niño de 11 años usaba el Nitōryū (Estilo de dos espadas) y entrenaba en un Dojo, Zoro era muy bueno e incluso lograba derrotar a personas de mayor edad que él. Sin embargo, la única persona a quién no podía derrotar era a Kuina (Hija del maestro del dojo, de 14 años).
+				Tras su derrota número 2.000 a manos de Kuina, Zoro la reto en un duelo privado y con la condición de que usaran espadas de verdad. Kuina acepta y vuelve a derrotar a Zoro, éste empieza a llorar de frustración por que no podrá cumplir su sueño de convertirse en el mejor espadachín si no puede vencer a Kuina, ella a su vez empieza a llorar diciendo que también quiere convertirse en la mejor espadachín del mundo pero su padre le dijo que con el tiempo las mujeres maduraban más débiles que los hombres y que ella ya estaba comenzando. Zoro le gritó y dijo que no era verdad, que no debería de decir eso por que ella lo podía vencer y que si un día él la vencía ella usaría eso como excusa; juró que si algún día la vencía era por que él entrenó duro y se volvió más fuerte y no por que Kuina se había vuelto débil. Seguido de esto, los dos se prometen mutuamente que alguno se convertiría en el mejor espadachín del mundo.
+
+				Tristemente, Kuina falleció al día siguiente al cargar una piedra para afilar su espada y caerse de las escaleras. Luego, Zoro le ruega al padre de Kuina que le diera la espada de ella, la Wadō Ichimonji, para convertirse en el mejor espadachín por los dos, su sensei acepta y a partir de ese momento Zoro empieza a usar el Santōryū. Tras años de entrenamiento, Zoro se embarca al East Blue para cumplir sus sueños, no sin antes hacer una visita a la tumba de Kuina.
+
+				El Mejor del Mundo
+				Cuando escuchó que Mihawk "Ojos de Halcón", uno de los Shichibukai, ostentaba el título del mejor espadachín del mundo, decidió salir a derrotarlo para ganarse ese título. Sin embargo, Zoro se perdió y no encontró su camino de regreso a casa, por lo que tuvo que convertirse en un cazador de piratas para poder alimentarse y reparar constantemente sus espadas.
+				Gracias a su temible reputación, el entonces Mr. 7 le ofrece ser un agente numérico de Baroque Works por sus habilidades como caza-recompensas, pero él se negó al no permitírsele ser el jefe. Después mató al entonces Mr. 7 pues trató de asesinarlo por haberse negado a formar parte de la organización.
+				
+				Leer mas
+			</article>
+			
+			<article id="articulo3" class="articulo">
+				Cuando era todavía un niño, Sanji trabajaba de aprendiz de cocinero en un barco de lujo, cuando este fue abordado por la terrible tripulación del capitán Zeff "Pierna Roja". Durante el abordaje, Sanji cayó al agua, perdiendo el conocimiento; fue rescatado por Zeff debido a que el joven Sanji compartía su sueño de encontrar el All Blue. Al recobrar el conocimiento, Sanji despierta en una isla rocosa junto a Zeff, quien le informa que ambos barcos fueron tragados por la tormenta. Zeff le da un saco de comida a Sanji y este le increpa a Zeff por tener un saco más grande a lo cual le responde que él necesita más comida por ser mayor. Zeff, quien no deseaba morir, se rompe una pierna con una piedra y se la come (en el anime se la rompe para salvar a Sanji del mar). Después de cinco días en la isla un barco rodea la isla y Sanji le hace señales pero este no responde y el barco se va. Luego de 70 días, Sanji va a ver al viejo y ve que este tenía su saco aún lleno, pero luego se da cuenta que adentro había oro y eso no podía salvarlo. Se da cuenta de que a Zeff le falta su pierna derecha, a lo cual Zeff responde que se la ha comido para ayudar a Sanji, para que en un futuro próximo el vaya al Grand Line y encuentre el All Blue. A Zeff se le ocurre la idea de un restaurante y Sanji lo apoya y le pide que no se muera. Al cabo de 85 días, ambos son encontrados moribundos y recogidos por un barco.
+				Leer mas	
+			</article>
+			
+			<article id="articulo4" class="articulo">
+				Nami era una niña huérfana que fue encontrada por Bellemere, una mujer Marine, en un campo de batalla. La marine la adoptó junto a otra niña llamada Nojiko, y las tres se convirtieron en una familia. Sin embargo, esto terminó cuando los infames piratas hombres-pez (del japonés Gyojin) de Arlong llegaron a la Villa Cocoyashi (o Villa Coco en algunas traducciones); ellos impusieron a los aldeanos el deber de pagarles tributo o pena de muerte (100,000 berries los adultos y los niños
+				Nami cuando niña.png
+				Nami de pequeña con una mandarina en la mano
+				50,000 al mes). Bellemere, siendo pobre, no podía pagar la suma requerida por los piratas y es asesinada (frente a Nami y Nojiko) por Arlong para mostrarles a los aldeanos lo que les ocurriría si no pagaban o si se oponían a él. Arlong encuentra un mapa hecho por Nami, y viendo el talento que tiene dibujando mapas la secuestra y fuerza a convertirse en su cartógrafa. Secretamente (no tanto, pues los aldeanos luego se enterarían), Arlong y Nami llegaron a un acuerdo: si ella le conseguía 100,000,000 de berries, él liberaría la villa. Ella empleó ocho años de su vida haciendo mapas y robando tesoros de otros piratas para conseguir pagarle a Arlong la cuota fijada para liberar a su pueblo.
+
+				Leer mas
+			</article>
+			
+			<article id="articulo5" class="articulo">
+				Usopp es el hijo de Yasopp, un pirata que es parte de la tripulación de Shanks
+				Ggfgf.jpg
+				Usopp, de niño, junto al lecho de su madre enferma
+				,"el pelirrojo". Yasopp dejó a Usopp y a su madre para volverse un pirata cuando Usopp era muy joven. Lejos de sentirle rencor, Usopp admiraba a su padre por haber seguido su sueño.
+				Luego, los orígenes de la tendencia de Usopp de decir mentiras son revelados por Merry, sirviente de Kaya: Un día, su madre se enfermó gravemente y estaba muriendo. Usopp, para levantarle los ánimos, corría gritando que Yasopp había vuelto y que se los llevaría a él y a su madre. Incluso después de morir, Usopp siguió corriendo por el pueblo diciendo que se acercaban los piratas. Merryluego pensó que las mentiras de Usopp eran realmente sus sueños.
+				Luego unos años más tarde, Usopp formó los "Piratas de Usopp" que consistían en él y otros 3 niños del pueblo: Ninjin, Tamanegi y Piiman. Usopp visitaba a escondidas a Kaya, la poseedora de una mansión que siempre estaba enferma, y le contaba historias para qu
+				15 4.jpg
+				Usopp cayendo derrotado en la pelea contra Kuro
+				e se animara. Cuando los piratas 
+				230px-UsoppLie.png
+				Kaya escuchando las "Aventuras" de Usopp
+				Kuroneko (Gato Negro) atacaron la isla de 
+				Emergency Break.jpg
+				Usopp es detenido por Zoro y Luffy antes de estrellarse contra el Merry
+				Usopp, él junto con Luffy, Nami y Zoro, derrotaron a ellos y su capitán: Kuro había pasado 3 años en la mansión de Kaya como su sirviente para ganarse su confianza y luego matarla para quedarse con su fortuna. Tras la derrota de Kuro a manos de Luffy, Usopp desmantela su banda de piratas y se va de viaje por su propia cuenta, pero Luffy lo invitó a unirse, a lo que él aceptó.
+				
+			</article>
+			
+			<article id="articulo6" class="articulo">
+				Chopper es un reno que siempre sufrió discriminación de parte de su manada, ya que nació con una nariz azul que ningún miembro de la manada poseía. Esta manada pertenecía al antiguo pueblo de Drum.
+				Un día, mientras toda la manada recolectaba frutas para comer, Chopper encontró la Hito Hito no Mi, una fruta del diablo. Ya que desconocía siquiera que era una fruta del diablo, la ingirió e inmediatamente después se convirtió a su forma híbrida. Esto causó que la manada lo expulsase de sus expediciones nómadas.
+
+				Al darse cuenta que tenía inteligencia animal, intentó involucrarse con los humanos, pero éstos siempre lo rechazaban. Incluso le temían, pues cuando quería hablar con ellos lo hacía en su forma humana, lo cual lo hacía ver como un monstruo. En respuesta, los aldeanos siempre le arrojaban rocas u objetos, o bien, intentaban cazarlo.
+				
+			</article>
+			
+			<article id="articulo7" class="articulo">
+				Su verdadero nombre es Cutty Flam, Franky es el apodo que le dio su amigo Iceburg. Cuando discutian Franky y Iceburg o Franky hacia algo mal, Iceburg siempre le llamaba "Bobonky". Franky fue abandonado por sus padres en la ciudad Water 7, donde se quedó
+				Franky 25.jpg
+				Franky en su juventud, trabajando con Tom´s Workers
+				con Tom el carpintero y Iceburg, aprendiz de Tom. Ambos trabajaban para la Tom's Workers, un taller de carpintería, bajo la tutela de Tom: el legendario carpintero de Water Seven e inventor del Puffing Tom (Tren de Mar). Por aquel entonces, Franky pasaba los días intentando crear un barco de guerra capaz de derrotar a un "Rey del Mar"; cada uno de estos barcos era bautizado como "Battle Franky" seguido del número de fabricación.
+				Untitled 1.jpg
+				Una típica pelea entre Iceburg y Franky (de niños)
+				Cuando Franky tenía 12 años, el gobierno vino para arrestar a Tom por la construcción del barco del Rey de los Piratas, el Oro Jackson. Tom fue temporalmente exculpado tras hacer un trato con el juez, con la excusa de que en diez años construiría el Umi Ressha, que revitalizaría el comercio de Water Seven salvándola de la decadencia.
+				One Piece Tom wounded.jpg
+				Tom frente a Cutty Flam
+				Después de catorce años, Tom terminó de construir el Umi Ressha, que se llamó "Puffin Tom", y los rieles de este (le costó diez años terminar el tren y la primera parte de los rieles y otros cuatro terminar las dos otras partes de los rieles). El gobierno tenía la intención de perdonar a Tom por tan formidable aportación, pero para su desgracia, se interpuso en su camino Spandam, líder del CP5. Spandam, bajo las órdenes del Gobierno Mundial, buscaba los planos del Arma Ancestral Plutón que según sus informadores estaban bajo custodia de Tom. 
+				212-El Dia en que El Tren Marino Partio.mp4 001305220.jpg
+				Celebración por acabar el tren marino
+				Para lograrlos, planeaba utilizar la construcción del Oro Jackson en su contra, pero se dio cuenta de que el gobierno pretendía exculparle de esos cargos, así que debía hacer algo para remediarlo. Spandam robó los Battle Franky y los utilizó para destruir el Barco Judicial que venía a exculpar a Tom, haciendo a la Toms Workers responsables de lo acontecido.
+				Durante el nuevo juicio, Tom hizo un nuevo trato con el juez: los hechos acontecidos ese día serían perdonados por la construcción del Umi Ressha y él seria condenado por la construcción del barco de Gol D. Roger. Esto se hizo para que Iceburg y Franky quedaran en libertad y por qué Tom realmente se sentía orgulloso de haber construido el Oro Jackson (por ser el único en haber atravesado toda Grand Line). El juez aceptó y el resto de los Toms Workers fueron liberados. Franky incapaz de admitir lo que estaba sucediendo enloqueció, golpeo en la cara a Spandam (dejándosela completamente desfigurada) y a varios miembros de CP5, luego se interpuso en la vía del Umi Ressha que llevaba a Tom a prisión e intento pararlo con una bazooka y al final con sus manos. Por desgracia fue arroyado por este y sufrió daños irreparables.
+				Franky reparó su cuerpo a partir de chatarra que encontró en un barco abandonado, convirtiéndose en el 
+				214-El Dia en que El Tren Marino Lloro.mp4 001109483.jpg
+				Franky antes de ser destruido
+				cyborg que es hoy. Abandonó el nombre de Cutty Flam, adoptó la identidad de Franky y regresó a Water 7. Cuando supo que seguía con vida, Iceburg le pidió que ocultara los planos de Plutón que Tom le había dejado y que ahora tendría que ser mucho más maduro, pues ahora tenía una decisión muy importante en sus manos: o destruir los planos o dárselos al gobierno mundial y ocasionar un inminente caos. También le dijo que continuara usando el nombre de Franky para ocultar su identidad
+				
+			</article>
+			
+			<article id="articulo8" class="articulo">
+				rook era el guardián de un antiguo reino en West Blue, razón por la cual también es un espadachín. Sin embargo, por ahora es desconocido el porque dejó este reino.
+				323-El Pasado de Brook.avi 000351017.jpg
+				Brook y Yorki
+				Brook se unió tiempo después a los Piratas Rumbar, liderados por el capitán Yorki "El Cálico". Yorki le hizo el ofrecimiento con la condición de que hiciera lo que a Brook le gustaba más: hacer música. Brook aceptó con todo gusto, volviéndose el músico de la tripulación, dispuesto a que su música alegrara hasta un niño.
+				Tiempo después; y antes de entrar a Grand Line se encontraron con una ballena bebé enorme (en esos momentos del tamaño de un bote) a la cual llamaron "Laboon". Brook la apreciaba mucho por ser tan juguetona con la tripulación y porque se alegraba mucho cuando Brook tocaba el violín.
+
+				324-El Sake de Binks.mp4 000620702.jpg
+				La ultima conversación de Brook y Yorki
+				Sin embargo, por ser tan pequeña, Yorki decidió abandonarla hasta que se hiciera grande y pudiera ayudarlos en combate. Brook nunca quiso dejarla y Laboon los siguió hasta cruzar la Reverse Mountain (La entrada a Grand Line). En este lugar los piratas Rumbar encontraron a Crocus, el vigilante de los Cabos Gemelos. Finalmente la tripulación decidió dejar a Laboon en este lugar al cuidado de Crocus. Yorki y los demás Piratas Rumbar (Entre ellos Brook), le hicieron la promesa de regresar a verla una vez más.
+				Los Piratas Rumbar recorrieron muchos lugares en Grand Line. Justo antes de llegar al "Nuevo Mundo", el capitán Yorki se enfermó de gravedad, por lo cuál tuvo que dejar a la tripulación, ya que el médico no conocía la enfermedad que lo aquejaba y que probablemente sería mortal (Probablemente la misma que tuvo Nami pero no está nada confirmado). Yorki fue trasladado de regreso a West Blue y Brook ocupó el puesto de capitán momentáneamente. Es aquí cuando ganó (Por razones aún desconocidas) su primera recompensa de Beli33.000.000. El paradero de Yorki es desconocido, pero se cree que puede o está muerto.
+
+				Trágicamente al llegar al "Nuevo Mundo", a Florian Triangle, los Piratas Rumbar enfrentaron a un mortal y poderoso enemigo (Por ahora desconocido), quién en una jugada muy sucia les arrojaron flechas envenenadas, hiriendo al médico y matándole al instante. Cuando los Piratas Rumbar viajaban ya sin médico todos los miembros empezaron a morir, incluyendo a Brook. Antes de morir tocaron una última canción que Brook grabó en un Tone Dial, traído de Skypiea por un comerciante y que llevaría a Laboon con la esperanza de que la habilidad de Brook funcionara.
+
+				A pesar de haber muerto, Brook había consumido la Fruta Yomi Yomi con lo cual se activó su habilidad: permitir al espíritu del cuerpo regresar. Pero la niebla del Florian Triangle le impidió encontrar su cuerpo rápidamente, tardo un año en ello. Al final lo encontró pero ya estaba hecho huesos. Brook pasó 50 años vagando en el mar a bordo de su barco, triste y solo.
+
+				Después fue encontrado por uno de los Siete Guerreros del Mar, Gekko Moriah, quien le arrebató su sombra gracias a los poderes de la Fruta Kage Kage. Moriah y su subordinado Hogback lo raptaron hasta Thriller Bark, su Barco-Isla (El más grande del mundo) y su sombra se la puso al cadáver de un poderoso espadachín llamado Ryuma, quien fue capaz de matar a un dragón. Brook trató de recuperar su sombra al intentar matar a Ryuma, pero este era mucho más poderoso que Brook, quien perdió al intentar proteger su afro. En este combate, Brook adquirió una cicatriz en su cráneo. Al ser derrotado fue enviado de regreso a vagar con su barco
+				
+			</article>
+			
+			<article id="articulo9" class="articulo">
+				Nació en Ohara, una isla en West Blue, venida de una familia de arqueólogos. Su madre, Nico Olvia, dejó a Robin a los dos años para ir al mar a buscar la "Verdadera Historia"; la dejó al cuidado de su cuñada, la mujer de su hermano: Roji. Roji fue negligente y abusó de Robin, dejándole muy en claro una y otra vez que no era querida en la familia, y la trató como a una Cenicienta. Ella siempre se quedaba esperando alguna señal de cariño, y nunca era invitada a una fiesta o gozaba de algún privilegio. Su habilidad con la Fruta del Diablo asustaba y disgustaba a las personas, haciendo que muchos de los niños se burlaran de ella. Los adultos no la ayudaban, incluso les decían a sus hijos que siguieran burlándose de ella y que si ella les hacía algún daño con su habilidad se las hicieran saber, aún si ellos fueran la que la provocaran. Los únicos amigos que ella tuvo fueron los estudiantes conocidos como "El árbol de la Omnisciencia", a cargo del Profesor Clover, un arqueólogo de un laboratorio de Ohara y buen amigo de Olvia.
+				ImagesCAGU2BQP.jpg
+				Robin de niña
+				A la temprana edad de ocho años, Robin pasó un examen de arqueología y fue invitada a formar parte del "Árbol del Conocimiento". Sin embargo cuando anunció que se integraba al grupo para conocer "La historia verdadera", los arqueólogos la reprimieron y le dijeron que estudiar el Siglo Vacío estaba prohibido y castigado por la ley. Robin reveló que había usado sus habilidades de la fruta para espiar a los arqueólogos y que por eso, sabía que ellos estudiaban, secretamente, sobre el Siglo Vacío en la base del "Árbol del Conocimiento". Eso aterrorizó a los arqueólogos y provocó que el profesor Clover la regañara severamente, advirtiéndole que si volvía a espiar a los arqueólogos o si se atrevía a decirle a alguien sobre la Verdadera Historia, la expulsarían para siempre del Árbol del conocimiento. Aunque realmente Clover lo que quería era no inmiscuir a una pequeña niña de ocho años en un crimen muy fuerte. Además Clover no quería revelarle que hacía unos pocos días, su madre había sido capturada por la Marine.
+				
+			</article>
+			
+			<article id="articulo10" class="articulo">
+				Portgas D. Ace (ポートガス・D・エース Pōtogasu D. Ēsu?) cuyo nombre original al nacer fue Gol D. Ace (ゴール・D・エース Gōru D. Ēsu?), fue el hijo de Gol D. Roger, el hombre que se convirtió en el Rey de los Piratas, y su amante Portgas D. Rouge. En su infancia pasaría a convertirse en el hermano mayor adoptivo de Monkey D. Luffy y Sabo. Fue adoptado por Monkey D. Garp, a petición de su padre Roger, antes de que él naciera. Con tan sólo 17 años fundó su propia tripulación de piratas, convirtiéndose en Capitán y pasando a liderar los Piratas Spade. Con dicha banda consiguió cosechar una gran reputación en muy poco tiempo, hasta el punto de que su nombre llegó a oídos del Emperador Pirata, Barbablanca. Más adelante junto a su tripulación original pasó a formar parte de los Piratas de Barbablanca, llegando a convertirse en la "Segunda División", siendo Ace su Comandante.
+				Los eventos que acontecieron en las Sagas de Impel Down y Marineford giran en torno al rescate organizado por su hermano Luffy y su Capitán Barbablanca (quien para Ace, era más bien un verdadero padre) para salvarlo de ser ejecutado por el Gobierno Mundial. Trágicamente, a pesar del descomunal esfuerzo por parte de cientos de aliados, y tras desencadenarse un conflicto político que redundó en una encarnizada guerra que cambió el curso de la historia, Ace encontró la muerte a manos del Almirante Sakazuki (Akainu) mientras intentaba proteger a su hermano Luffy de un ataque fatal por parte del Almirante.
+				http://es.onepiece.wikia.com/wiki/Portgas_D._Ace								
+			</article>
+		</article>
+
+	</h5>
+
+</div>
+
+</body>
+</html>
